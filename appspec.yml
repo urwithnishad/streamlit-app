@@ -13,7 +13,7 @@ permissions:
 hooks:
 
   ApplicationStart:
-    - Location : startsevice.sh
+    - Location : startservice.sh
       timeout: 300
       runas: ubuntu
 
