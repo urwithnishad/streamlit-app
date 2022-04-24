@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/streamlit-app
+    destination: /home/ubuntu
 permissions: 
   - object: /
     pattern: "**"
