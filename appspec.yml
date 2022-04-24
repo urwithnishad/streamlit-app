@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: //home/ubuntu/streamlit-app
     destination: /home/ubuntu/streamlit-app
 permissions: 
   - object: /
