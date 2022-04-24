@@ -10,10 +10,5 @@ permissions:
     group: ubuntu
     mode: 777
 
-hooks:
-  ApplicationStart:
-    - Location : scripts/start_server
-      timeout: 300
-      runas: ubuntu
 
   
