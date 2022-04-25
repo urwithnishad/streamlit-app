@@ -1,3 +1,4 @@
 #!/bin/bash
+ls
 /home/ubuntu/miniconda/bin/streamlit run kpis_streamlit.py
 
