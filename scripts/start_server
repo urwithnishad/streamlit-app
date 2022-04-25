@@ -1,4 +1,4 @@
 #!/bin/bash
 pwd
-/home/ubuntu/miniconda/bin/streamlit run /home/ubuntu/app/kpis_streamlit.py
+nohup /home/ubuntu/miniconda/bin/streamlit run /home/ubuntu/app/kpis_streamlit.py
 
