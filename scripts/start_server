@@ -1,4 +1,5 @@
 #!/bin/bash
 pwd
-/home/ubuntu/miniconda/bin/streamlit run /home/ubuntu/app/kpis_streamlit.py
+docker build -t streamlitapp:latest .
+docker run -p 8501:8501 streamlitapp:latest
 
