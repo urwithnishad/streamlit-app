@@ -12,5 +12,5 @@ permissions:
 hooks:
   ApplicationStart:
     - location : scripts/start_server
-      timeout: 300
+      timeout: 500
       runas: ubuntu
