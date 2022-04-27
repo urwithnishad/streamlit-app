@@ -10,7 +10,7 @@ permissions:
     group: ubuntu
     mode: 777
 hooks:
-  ApplicationStop:
+  ApplicationStart:
     - docker-compose up -d --build
       timeout: 200
       runas: ubuntu
