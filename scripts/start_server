@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /home/ubuntu/app2
 ls
-docker-compose --project-directory ./app2 up -d --build
+docker-compose up -d --build
