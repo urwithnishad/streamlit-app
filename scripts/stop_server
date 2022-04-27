@@ -1,2 +1,2 @@
 #!/bin/bash
-docker rm -f streamlitapp 
+docker rm -f streamlitapp || true
