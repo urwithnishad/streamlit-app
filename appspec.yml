@@ -10,7 +10,7 @@ permissions:
     group: ubuntu
     mode: 777
 hooks:
-  ApplicationStart:
+  ApplicationStop:
     - location : scripts/stop_server
       timeout: 200
       runas: ubuntu
