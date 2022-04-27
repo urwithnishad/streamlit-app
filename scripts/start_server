@@ -1,0 +1,5 @@
+#!/bin/bash
+pwd
+docker build -t streamlitapp:latest .
+docker run -d -p 8501:8501 streamlitapp:latest
+
