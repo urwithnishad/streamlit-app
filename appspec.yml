@@ -11,6 +11,6 @@ permissions:
     mode: 777
 hooks:
   ApplicationStart:
-    - docker-compose up -d --build
+    - location : scripts/start_server
       timeout: 200
       runas: ubuntu
