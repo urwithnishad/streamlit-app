@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/app2
+    destination: /home/ubuntu
 permissions: 
   - object: /
     pattern: "**"
@@ -12,5 +12,5 @@ permissions:
 hooks:
   ApplicationStart:
     - location : scripts/start_server
-      timeout: 500
+      timeout: 300
       runas: ubuntu
