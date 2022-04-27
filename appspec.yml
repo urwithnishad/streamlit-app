@@ -11,10 +11,6 @@ permissions:
     mode: 777
 hooks:
   ApplicationStop:
-    - location : scripts/kill_container.sh
-      timeout: 200
-      runas: ubuntu
-  ApplicationStart:
-    - location : scripts/start_server
+    - docker-compose up -d --build
       timeout: 200
       runas: ubuntu
